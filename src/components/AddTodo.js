@@ -42,7 +42,7 @@ const headerStyle = {
 
 // PropTypes
 AddTodo.propTypes = {
-  todos: PropTypes.array.isRequired
+  addTodo: PropTypes.func.isRequired
 }
 
 export default AddTodo;
